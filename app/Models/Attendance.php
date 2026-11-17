@@ -10,10 +10,11 @@ class Attendance extends Model
 {
     use HasFactory;
 
-    protected $fillable = [
-        'event_id',
-        'status',
-    ];
+protected $fillable = [
+    'user_id',
+    'event_id',
+    'status',
+];
 
     protected function casts(): array
     {

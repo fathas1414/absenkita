@@ -17,6 +17,7 @@ class Event extends Model
         'jam_mulai',
         'jam_selesai',
         'status',
+        'created_by',
     ];
 
     protected function casts(): array
